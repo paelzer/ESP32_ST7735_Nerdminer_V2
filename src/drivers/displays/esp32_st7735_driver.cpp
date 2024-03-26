@@ -38,9 +38,9 @@ void t_qtDisplay_Init(void)
 
 void t_qtDisplay_AlternateScreenState(void)
 {
-  int screen_state = digitalRead(TFT_BL);
-  Serial.println("Switching display state");
-  digitalWrite(TFT_BL, !screen_state);
+  //int screen_state = digitalRead(TFT_BL);
+  Serial.println("Nothing to do.... ");
+  //digitalWrite(TFT_BL, !screen_state);
 }
 
 void t_qtDisplay_AlternateRotation(void)
